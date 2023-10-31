@@ -1,0 +1,11 @@
+.main li{
+    text-decoration: none;
+    list-style: none;
+    padding-top: 50px;
+   
+}
+
+.main  a{
+    display: flex;
+    justify-content: center;
+}
