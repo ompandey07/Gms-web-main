@@ -1,698 +1,825 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ganeshman Singh Multiple Campus , Kathmandu Kalanki</title>
-    <!-- keywords -->
-    <meta name="keywords"
-        content="ganeshman, Ganeshman Singh Multiple Campus , gms , kalanki campus,campusnear bhat vateni, campus near my home kalanki, best college for +2 in kalanki , best college for bachelors in kalanki, gms campus , college near my home , best college , best bca colllege in kalanki ">
-    <meta name="author" content="Ganeshman Singh Multiple Campus">
-    <meta name="language" content="English">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content="width=device-width, initial-scale=0.5" name="viewport">
+    <meta
+      name="keywords"
+      content="ganeshman, Ganeshman Singh Multiple Campus , gms , kalanki campus,campusnear bhat vateni, campus near my home kalanki, best college for +2 in kalanki , best college for bachelors in kalanki, gms campus , college near my home , best college , best bca colllege in kalanki "
+    />
+    <meta name="author" content="Ganeshman Singh Multiple Campus" />
+    <meta name="language" content="English" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=0.5" name="viewport" />
     <!-- keywordsends -->
-    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
     <!-- <meta content="width=device-width, initial-scale=1.0" name="viewport"> -->
-    <meta content="" name="Gms , Ganseshman kalanki , kalanki collegees , ganeshman Bca , ganesh man BBA">
-    <meta content="" name="description">
-    <link rel="icon" href="img/g.png">
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta
+      content=""
+      name="Gms , Ganseshman kalanki , kalanki collegees , ganeshman Bca , ganesh man BBA"
+    />
+    <meta content="" name="description" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
-        rel="stylesheet">
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="w3css/4/w3.css"> -->
-    <link rel="stylesheet" href="w3css/4/w3new.css">
-</head>
-
-<body>
-    <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="Images/g.png" type="image/x-icon" />
+    <style>
+      * {
+        cursor: pointer;
+      }
+      .custom-input {
+        border: none;
+        border-bottom: 2px solid #e2e8f0;
+        background-color: transparent;
+        transition: border-color 0.3s ease;
+      }
+      .custom-input:focus {
+        outline: none;
+        border-bottom-color: #1e40af;
+      }
+      .popup-enter {
+        animation: popupEnter 0.5s ease-out;
+      }
+      .popup-exit {
+        animation: popupExit 0.5s ease-in;
+      }
+      @keyframes popupEnter {
+        from {
+          opacity: 0;
+          transform: scale(0.9);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+      @keyframes popupExit {
+        from {
+          opacity: 1;
+          transform: scale(1);
+        }
+        to {
+          opacity: 0;
+          transform: scale(0.9);
+        }
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              cursive: ['"Dancing Script"', "cursive"],
+              sans: ["Poppins", "sans-serif"],
+            },
+            colors: {
+              primary: "#1e40af",
+              secondary: "#1e3a8a",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-sans bg-gray-50 text-gray-800">
+    <nav class="bg-white shadow-md fixed w-full z-10">
+      <div
+        class="container mx-auto px-4 py-3 flex justify-between items-center"
+      >
+        <div class="flex items-center">
+          <img
+            src="Images/College Logo1.png"
+            alt="Campus Logo"
+            class="h-12 w-55 mr-3"
+          />
         </div>
-    </div>
-    <!-- Spinner End -->
-
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0 ">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <!-- <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>Ganeshman Singh Multiple Campus</h2> -->
-            <img class="m-0 text-primary" src="img/College Logo1.png" alt="">
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
+        <ul class="hidden md:flex space-x-6">
+          <li>
+            <a
+              href="#home"
+              class="flex items-center hover:text-primary transition-colors"
+              ><i class="ri-home-4-line mr-1"></i> Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#courses"
+              class="flex items-center hover:text-primary transition-colors"
+              ><i class="ri-book-open-line mr-1"></i> Courses</a
+            >
+          </li>
+          <li>
+            <a
+              href="#gallery"
+              class="flex items-center hover:text-primary transition-colors"
+              ><i class="ri-gallery-line mr-1"></i> Gallery</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="flex items-center hover:text-primary transition-colors"
+              ><i class="ri-mail-line mr-1"></i> Contact</a
+            >
+          </li>
+          <li>
+            <button
+              id="loginBtn"
+              class="flex items-center hover:text-primary transition-colors"
+            >
+              <i class="ri-user-line mr-1"></i> Login
+            </button>
+          </li>
+        </ul>
+        <button class="md:hidden text-primary">
+          <i class="ri-menu-line text-2xl"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link ">About</a>
-                <a href="new.html" class="nav-item nav-link">Courses</a>
-                <a href="Galary/index-color.html" class="nav-item nav-link">Gallery</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Libarary</a>
-                    <div class="dropdown-menu fade-down m-0">
-                        <a href="bachlr.html" class="dropdown-item">Bachelor's</a>
-                        <a href="+2.HTML" class="dropdown-item">+2</a>
-                        <a href="masters.html" class="dropdown-item">Master's</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
-                <a href="calendar.html" class="nav-item nav-link">Calendar</a>
+      </div>
     </nav>
-    <!-- Navbar End -->
 
-
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
-        <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/mainlogo.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                    style="background: rgba(24, 29, 56, .7);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown"></h5>
-                                <h1 class="display-3 text-white animated slideInDown">This is not just your future ,
-                                    this is our future </h1>
-                                <p class="fs-5 text-white mb-4 pb-2">The college has a strong commitment to providing
-                                    students with the best possible support and resources</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
-                                    More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- add -->
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/BAnner.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                    style="background: rgba(24, 29, 56, .7);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown"></h5>
-                                <h1 class="display-3 text-white animated slideInDown">We’re Here To Help You Reach Your
-                                    Personal Best</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Ganeshman Singh campus prepares you for the harsh
-                                    reality that you are going to face. It makes you capable enough to understand every
-                                    hurdle or obstacle you face in life, and you have to solve it with the help of your
-                                    habits and your thinking skills</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
-                                    More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/Teammm.jpg" alt="">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
-                    style="background: rgba(24, 29, 56, .7);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown"></h5>
-                                <h1 class="display-3 text-white animated slideInDown">No, sky is not the limit. It is
-                                    only the beginning</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">In addition, Ganeshman Singh campus build your
-                                    personality and help you improve your interaction skills and better your overall
-                                    presentation of yourself</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
-                                    More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section id="home" class="pt-20 bg-gradient-to-b from-blue-50 to-white">
+      <div
+        class="container mx-auto px-4 py-16 text-center relative overflow-hidden"
+      >
+        <h2 class="text-5xl font-cursive font-bold mb-4 text-primary">
+          Welcome to Ganesh Man Singh Multiple Campus
+        </h2>
+        <p class="text-xl mb-8">Empowering minds, shaping futures</p>
+        <div
+          class="hero-slider relative h-96 rounded-lg overflow-hidden shadow-xl"
+        >
+          <img
+            src="Images/Teammm.jpg"
+            alt="Campus Image 1"
+            class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0"
+          />
+          <img
+            src="Images/mainlogo.jpg"
+            alt="Campus Image 2"
+            class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-100"
+          />
+          <img
+            src="https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/331540251_3420755324810349_2600411392256170862_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHqk95FNm-ZftJNI0MLuWomAjg3ROr7ExQCODdE6vsTFCc2Lf4RmDQaoCFQBpEmihs2-2o0Y4saoVSSTNUMy5oz&_nc_ohc=LWnoLqbwbLUQ7kNvgHAXu4r&_nc_ht=scontent.fktm10-1.fna&oh=00_AYCvdLuoofTyWqTe8iRSk7c9CH3UCL18tqs1PWQOGhRAbA&oe=66C0D674"
+            alt="Campus Image 3"
+            class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0"
+          />
+          <img
+            src="https://news.northeastern.edu/wp-content/uploads/2021/05/050921_AG_commencement_508.jpg?w=1024"
+            alt="Campus Image 4"
+            class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0"
+          />
+          <div
+            class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2"
+          >
+            <button
+              class="w-3 h-3 rounded-full bg-white opacity-50 focus:outline-none"
+              data-index="0"
+            ></button>
+            <button
+              class="w-3 h-3 rounded-full bg-white opacity-50 focus:outline-none"
+              data-index="1"
+            ></button>
+            <button
+              class="w-3 h-3 rounded-full bg-white opacity-50 focus:outline-none"
+              data-index="2"
+            ></button>
+            <button
+              class="w-3 h-3 rounded-full bg-white opacity-50 focus:outline-none"
+              data-index="3"
+            ></button>
+          </div>
         </div>
-    </div>
-    <!-- Carousel End -->
+      </div>
+    </section>
 
-
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
-                            <h5 class="mb-3">Skilled Instructors</h5>
-                            <p>Get opportunity to take knowledge regarding your carrier with Skilled Instructers</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
-                            <h5 class="mb-3">Online Classes</h5>
-                            <p>In case of Extra Classes regarding any subject we provide online class to fullfill your
-                                needs</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-home text-primary mb-4"></i>
-                            <h5 class="mb-3">Home Projects</h5>
-                            <p>We Continuously Provide Home Projects After we finish our Book-units as well as after
-                                cource finished</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
-                            <h5 class="mb-3">Book Library</h5>
-                            <p>We provide a Library To Create Better Environment For Your Study Progress</p>
-                        </div>
-                    </div>
-                </div>
+    <!-- Our Courses +2  -->
+    <section id="courses" class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <h3
+          class="text-3xl font-cursive font-bold mb-8 text-center text-primary"
+        >
+          <i class="ri-graduation-cap-line mr-2"></i>Our Courses +2
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div
+            class="course-card bg-gray-50 rounded-lg shadow-md overflow-hidden"
+          >
+            <img
+              src="Images/mgmt.jpg"
+              alt="Science"
+              class="w-full h-40 object-cover"
+            />
+            <div class="p-4">
+              <h4 class="text-lg font-semibold mb-2 text-center">Management</h4>
             </div>
+          </div>
+          <div
+            class="course-card bg-gray-50 rounded-lg shadow-md overflow-hidden"
+          >
+            <img
+              src="Images/HUMAN.jpg"
+              alt="Management"
+              class="w-full h-40 object-cover"
+            />
+            <div class="p-4">
+              <h4 class="text-lg font-semibold mb-2 text-center">Humanities</h4>
+            </div>
+          </div>
+          <div
+            class="course-card bg-gray-50 rounded-lg shadow-md overflow-hidden"
+          >
+            <img
+              src="Images/HOTEL.png"
+              alt="Humanities"
+              class="w-full h-40 object-cover"
+            />
+            <div class="p-4">
+              <h4 class="text-lg font-semibold mb-2 text-center">
+                Hotel Management
+              </h4>
+            </div>
+          </div>
+          <div
+            class="course-card bg-gray-50 rounded-lg shadow-md overflow-hidden"
+          >
+            <img
+              src="Images/EDUCATION.jpeg"
+              alt="Computer Science"
+              class="w-full h-40 object-cover"
+            />
+            <div class="p-4">
+              <h4 class="text-lg font-semibold mb-2 text-center">Education</h4>
+            </div>
+          </div>
         </div>
-    </div>
-    <!-- Service End -->
+      </div>
+    </section>
+    <!-- Our Courses +2  -->
 
-
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/GMSLOGO.jpg" alt=""
-                            style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h1 class="mb-4">Welcome to Ganeshman Singh Multiple Campus</h1>
-                    <p class="mb-4">Are you ready to embark on an extraordinary educational journey?
-                        Look no further! Ganeshman Singh Multiple Campus is here to unlock your true potential
-                        and pave the way to your brightest future. we believe that every student
-                        is unique, with their own talents and passions waiting to be discovered.
-                        Our dedicated team of educators is committed to nurturing and guiding you along the path of
-                        success.</p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>TU Certificate</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>TU Certificate</p>
-                        </div>
-                    </div>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
-                </div>
-            </div>
+    <!-- Our Courses Bachelors  -->
+    <section id="courses-bachelors" class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <h3
+          class="text-3xl font-cursive font-bold mb-8 text-center text-primary"
+        >
+          <i class="ri-graduation-cap-line mr-2"></i>Our Bachelor's Courses
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div
+            class="course-card bg-gray-50 rounded-lg shadow-md overflow-hidden"
+          >
+            <img
+              src="Images/BCA.jpg"
+              alt="BCA"
+              class="w-full h-48 object-cover"
+            />
+            <h4 class="text-lg font-semibold p-4 text-center">
+              Bachelor of Computer Applications
+            </h4>
+          </div>
+          <div
+            class="course-card bg-gray-50 rounded-lg shadow-md overflow-hidden"
+          >
+            <img
+              src="Images/BBS.jpg"
+              alt="BBS"
+              class="w-full h-48 object-cover"
+            />
+            <h4 class="text-lg font-semibold p-4 text-center">
+              Bachelor's In Business Studies
+            </h4>
+          </div>
+          <div
+            class="course-card bg-gray-50 rounded-lg shadow-md overflow-hidden"
+          >
+            <img
+              src="Images/BA.png"
+              alt="BA"
+              class="w-full h-48 object-cover"
+            />
+            <h4 class="text-lg font-semibold p-4 text-center">
+              Bachelor of Arts
+            </h4>
+          </div>
+          <div
+            class="course-card bg-gray-50 rounded-lg shadow-md overflow-hidden"
+          >
+            <img
+              src="Images/BSW.jpg"
+              alt="BSW"
+              class="w-full h-48 object-cover"
+            />
+            <h4 class="text-lg font-semibold p-4 text-center">
+              Bachelor of Social Work
+            </h4>
+          </div>
+          <div
+            class="course-card bg-gray-50 rounded-lg shadow-md overflow-hidden"
+          >
+            <img
+              src="Images/B.ED.jpg"
+              alt="BEd"
+              class="w-full h-48 object-cover"
+            />
+            <h4 class="text-lg font-semibold p-4 text-center">
+              Bachelor of Education
+            </h4>
+          </div>
+          <div
+            class="course-card bg-gray-50 rounded-lg shadow-md overflow-hidden"
+          >
+            <img
+              src="Images/med.jpg"
+              alt="MEd"
+              class="w-full h-48 object-cover"
+            />
+            <h4 class="text-lg font-semibold p-4 text-center">
+              Master's Of Education
+            </h4>
+          </div>
         </div>
-    </div>
-    <!-- About End -->
+      </div>
+    </section>
+    <!-- Our Courses Bachelors  -->
 
-
-    <!-- Categories Start -->
-    <div class="container-xxl py-5 category">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">+2 Level</h6>
-                <h1 class="mb-5">Courses Categories</h1>
-            </div>
-            <div class="row g-3">
-                <div class="col-lg-7 col-md-6">
-                    <div class="row g-3">
-                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="img/mgmt.jpg" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                    style="margin: 1px;">
-                                    <h5 class="m-0">MANAGEMENT</h5>
-                                    <small class="text-primary"></small>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="img/HUMAN.jpg" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                    style="margin: 1px;">
-                                    <h5 class="m-0">HUMANITIES</h5>
-                                    <small class="text-primary"></small>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="img/HOTEL.png" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                                    style="margin: 1px;">
-                                    <h5 class="m-0">HOTEL MANAGEMENT</h5>
-                                    <small class="text-primary"></small>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
-                    <a class="position-relative d-block h-100 overflow-hidden" href="">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/EDUCATION.jpeg" alt=""
-                            style="object-fit: cover;">
-                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                            style="margin:  1px;">
-                            <h5 class="m-0">EDUCATION</h5>
-                            <small class="text-primary"></small>
-                        </div>
-                    </a>
-                </div>
-            </div>
+    <section id="teachers" class="py-16 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <h3
+          class="text-3xl font-cursive font-bold mb-8 text-center text-primary"
+        >
+          <i class="ri-user-star-line mr-2"></i>Our Teachers
+        </h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+          <div class="teacher-card text-center">
+            <img
+              src="Images/chief.jpg"
+              alt="Teacher 1"
+              class="w-40 h-40 rounded-full object-cover mb-4 mx-auto"
+            />
+            <h4 class="text-xl font-semibold">Ishwory Kafle</h4>
+            <p class="text-gray-600">Campus Chief</p>
+          </div>
+          <div class="teacher-card text-center">
+            <img
+              src="Images/Prlad.jpg"
+              alt="Teacher 2"
+              class="w-40 h-40 rounded-full object-cover mb-4 mx-auto"
+            />
+            <h4 class="text-xl font-semibold">Pralad Gautam</h4>
+            <p class="text-gray-600">Assistant.Campus Chief</p>
+          </div>
+          <div class="teacher-card text-center">
+            <img
+              src="Images/Raju.jpg"
+              alt="Teacher 3"
+              class="w-40 h-40 rounded-full object-cover mb-4 mx-auto"
+            />
+            <h4 class="text-xl font-semibold">Raju Paudel</h4>
+            <p class="text-gray-600">Administrative Chief</p>
+          </div>
+          <div class="teacher-card text-center">
+            <img
+              src="https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/453217781_8185334294860463_4467297474556911084_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFX2tDnO4dQGVI7BJKUHs_2f-e4sCNBq45_57iwI0Grjtvkl3KLPAEAIEuaI_0UjeEha3Y_04E8eJoWK1_Szmtb&_nc_ohc=bciErkUWyokQ7kNvgH7PNrf&_nc_ht=scontent.fktm10-1.fna&oh=00_AYBP9Qii15c9DJTUWOVuWKlCLXgUuubFw14SPfw72fq1WQ&oe=66C0E942"
+              alt="Teacher 4"
+              class="w-40 h-40 rounded-full object-cover mb-4 mx-auto"
+            />
+            <h4 class="text-xl font-semibold">Parshu Ram</h4>
+            <p class="text-gray-600">Information Technology</p>
+          </div>
+          <div class="teacher-card text-center">
+            <img
+              src="https://scontent.fktm7-1.fna.fbcdn.net/v/t1.6435-9/55500717_2230509050367321_8133410496494698496_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=c7cdda&_nc_eui2=AeFwTV9-ErxT2EiuvieoTUcuz46pUENePIPPjqlQQ148gyPCXdcyRWgUsLrYjpf2aoLhXP9IBogMzi4YJO-sTaWo&_nc_ohc=nMdfSEy4JxYQ7kNvgHmZ5ft&_nc_ht=scontent.fktm7-1.fna&oh=00_AYBfv0H19LPxyS6DpgHhuiEeiRb-cX9vOJnd1b1kfGl-0A&oe=66E2A12B"
+              alt="Teacher 5"
+              class="w-40 h-40 rounded-full object-cover mb-4 mx-auto"
+            />
+            <h4 class="text-xl font-semibold">Pabitra Kafle</h4>
+            <p class="text-gray-600">Account</p>
+          </div>
         </div>
-    </div>
-    <!-- Categories Start -->
+      </div>
+    </section>
 
-
-    <!-- Courses Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Bachelor's Level</h6>
-                <h1 class="mb-5">Courses Categories</h1>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/BCA.jpg" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0"></h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small>(123)</small>
-                            </div>
-                            <h5 class="mb-4">Bachelor of Computer Applications</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
-                                Students</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/BBS.jpg" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0"></h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small>(123)</small>
-                            </div>
-                            <h5 class="mb-4">Bachelor's In Business Studies </h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
-                                Students</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/BA.png" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0"></h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small></small>
-                            </div>
-                            <h5 class="mb-4">Bachelor of Arts</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
-                                Students</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/BSW.jpg" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0"></h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small>(123)</small>
-                            </div>
-                            <h5 class="mb-4">Bachelor of Social Work</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
-                                Students</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/med.jpg" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0"></h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small>(123)</small>
-                            </div>
-                            <h5 class="mb-4">Master's Of Education</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
-                                Students</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/1122.jpg" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0"></h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small></small>
-                            </div>
-                            <h5 class="mb-4">Bachelor of Education</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
-                                Students</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section id="facilities" class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <h3
+          class="text-3xl font-cursive font-bold mb-8 text-center text-primary"
+        >
+          <i class="ri-building-2-line mr-2"></i>Our Facilities
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div
+            class="facility-card bg-gray-50 rounded-lg shadow-md p-6 text-center h-full"
+          >
+            <i class="ri-user-star-line text-5xl text-primary mb-4"></i>
+            <h4 class="text-xl font-semibold mb-2">Skilled Instructors</h4>
+            <p class="text-gray-600">
+              Get opportunity to take knowledge regarding your carrier with
+              Skilled Instructers
+            </p>
+          </div>
+          <div
+            class="facility-card bg-gray-50 rounded-lg shadow-md p-6 text-center h-full"
+          >
+            <i class="ri-computer-line text-5xl text-primary mb-4"></i>
+            <h4 class="text-xl font-semibold mb-2">Online Classes</h4>
+            <p class="text-gray-600">
+              In case of Extra Classes regarding any subject we provide online
+              class to fullfill your needs
+            </p>
+          </div>
+          <div
+            class="facility-card bg-gray-50 rounded-lg shadow-md p-6 text-center h-full"
+          >
+            <i class="ri-home-office-line text-5xl text-primary mb-4"></i>
+            <h4 class="text-xl font-semibold mb-2">Home Projects</h4>
+            <p class="text-gray-600">
+              We Continuously Provide Home Projects After we finish our
+              Book-units as well as after cource finished
+            </p>
+          </div>
+          <div
+            class="facility-card bg-gray-50 rounded-lg shadow-md p-6 text-center h-full"
+          >
+            <i class="ri-book-2-line text-5xl text-primary mb-4"></i>
+            <h4 class="text-xl font-semibold mb-2">Book Library</h4>
+            <p class="text-gray-600">
+              We provide a Library To Create Better Environment For Your Study
+              Progress
+            </p>
+          </div>
         </div>
-    </div>
-    <!-- Courses End -->
+      </div>
+    </section>
 
-
-    <!-- Team Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
-                <h1 class="mb-5">Expert Instructors</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-8 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/chief.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1"
-                                    href="https://www.facebook.com/profile.php?id=100009766575928" target="_blank"><i
-                                        class="fab fa-facebook-f"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Ishwory Kafle</h5>
-                            <small>Campus Chief</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-8 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/Prlad.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1"
-                                    href="https://www.facebook.com/pralad.gautam.9" target="_blank"><i
-                                        class="fab fa-facebook-f"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Pralad Gautam</h5>
-                            <small>Assitant.Campus Chief</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-8 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/Raju.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1"
-                                    href="https://www.facebook.com/raju.poudyal.98" target="_blank"><i
-                                        class="fab fa-facebook-f"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Raju Paudel</h5>
-                            <small>Administrative Chief</small>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+    <section id="gallery" class="py-16 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <h3
+          class="text-3xl font-cursive font-bold mb-8 text-center text-primary"
+        >
+          <i class="ri-gallery-line mr-2"></i>Our Gallery
+        </h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="overflow-hidden rounded-lg shadow-md">
+            <img
+              src="https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/331971969_576302974397318_3877491057897093100_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHo1JyhDzXC1DWst1c2afMa-nAbGPd-L0n6cBsY934vSTyqunVBVTnGoSh5YXklpdtsaweHVhr9YRgOEjYe3gAQ&_nc_ohc=8gRHe2CJi5cQ7kNvgFZxz8j&_nc_ht=scontent.fktm10-1.fna&oh=00_AYCGv1p-nhQgnrN-f2LybEE1kM_mtvoSRqhrDc1oxNZQlQ&oe=66C0E835"
+              alt="Gallery 1"
+              class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+            />
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-md">
+            <img
+              src="https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/331297225_634705345329997_4785969162984169501_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGV9-fE0-ZJg4ZzynUeE4e_HrvuELP0yRQeu-4Qs_TJFDDr1dAR_AoxxOBJBvkvd9WVziPgS2yud4AtxzHRi09y&_nc_ohc=Kq2V7RqZpG0Q7kNvgEZA-W_&_nc_ht=scontent.fktm10-1.fna&oh=00_AYDyxc1eGcRpGP_ViT05KzafgHHo8HVIFs_XQzJpL-hdew&oe=66C0E5B3"
+              alt="Gallery 2"
+              class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+            />
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-md">
+            <img
+              src="https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/329686440_1354213982083040_5627376534611098407_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE8__nqogwriSJc9oMcOaptUUPjg9uJthVRQ-OD24m2FfbK5PIudcA2bvXdo2mS4kpFVABE24SnIYgnMPhV6ikh&_nc_ohc=h3e4wZFsAJkQ7kNvgFTu7xH&_nc_ht=scontent.fktm10-1.fna&oh=00_AYCX81q2__mMw9WfF3RMziXJfbJ_X61dAP7QXp83VhaO1Q&oe=66C0FF18"
+              alt="Gallery 3"
+              class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+            />
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-md">
+            <img
+              src="https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/329670652_746143986704157_1621072959128915321_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGIb6kc6FpLRTKOZ2E7tTsqRVoA2IUQpFFFWgDYhRCkURuAbpB585h2q_LV78EX9M-FIc6TraWRpxuhvRwWd8v9&_nc_ohc=BU3ESAOW4VoQ7kNvgFVhCvP&_nc_ht=scontent.fktm10-1.fna&oh=00_AYAoTEFSLa2_JZ5ztfKWU_YJ7QHFfdeIFoGE2Xf9yIHe6Q&oe=66C0D88B"
+              alt="Gallery 4"
+              class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+            />
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-md">
+            <img
+              src="https://scontent.fktm7-1.fna.fbcdn.net/v/t39.30808-6/329539225_426081143035524_8024926178018845263_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHr9UpbcV9F_NOu_TEHS08ImeSYBOTyfBKZ5JgE5PJ8EsEgYN_jNYjwQ70uOd4LC88YSK-aLF2TU9WeJ_37fPcP&_nc_ohc=UwpQlN1wqoAQ7kNvgF8hjjA&_nc_ht=scontent.fktm7-1.fna&oh=00_AYAyiMzvPAY_cLQ9zYyrywGntwcao6cC5KMJmUTkHYKgIg&oe=66C11062"
+              alt="Gallery 5"
+              class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+            />
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-md">
+            <img
+              src="https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/441309609_7522131997865853_7357427442687955741_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeGy1coq_FMJojLzl5sVzA1o5KKDXOPFz27kooNc48XPblut5Aif4sD8ZNTGWXKvfsBzMIEx4JAu0B6DRrjKh6nC&_nc_ohc=bSL1EVRzkI0Q7kNvgGnTCzv&_nc_ht=scontent.fktm10-1.fna&oh=00_AYAlnx-PLY8NbSBxjRAMtqWPOkf4eqM2RbwuJXuCJJ_bqg&oe=66C10A73"
+            />
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-md">
+            <img
+              src="https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/452190883_7902578803154502_4866238479093450645_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeF7Hs8kS0jdLnxwkL_x5byV5yez8A9iJH_nJ7PwD2Ikf6T3OT5H_VQY6cS4l-b_VHZhpSpltXW1PZyub2ZfSO6v&_nc_ohc=GVtXGNU-y-sQ7kNvgGXKmW6&_nc_ht=scontent.fktm10-1.fna&oh=00_AYA-Nr6ja-zM9IT6Ek5iC_fayxQ7VVYij2Eht_0d6bXtRg&oe=66C0DC72"
+              alt="Gallery 7"
+              class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+            />
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-md">
+            <img
+              src="https://scontent.fktm10-1.fna.fbcdn.net/v/t39.30808-6/441248343_7522147941197592_5822861691507028276_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeHT2x94YC5CUXD1kE_zIn2cI5xL204MZEojnEvbTgxkSg-px5loCOO9wLhFKdsPzw5iakB-ASp3FzZqFEN0j2sc&_nc_ohc=TQYUpu2LAakQ7kNvgGOBXX7&_nc_ht=scontent.fktm10-1.fna&oh=00_AYD5UDE6Pd0uAzq-YMeqru0H8LYJdu4_tWRpqn5ZOhoJ3Q&oe=66C0E410"
+              alt="Gallery 8"
+              class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+            />
+          </div>
         </div>
-    </div>
-    <!-- Team End -->
+      </div>
+    </section>
 
-
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="text-center">
-                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
-                <h1 class="mb-5">Our Students Say!</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel position-relative">
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/Dc.jpg"
-                        style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Sunil Dc</h5>
-                    <p>Student</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                        <p class="mb-0">I must say that the college has excellent infrastructure, facilities and
-                            equipment. The college has invested in modern technology, and all the classrooms are
-                            equipped with smart boards, which make learning more interactive and engaging. </p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/Kaushal.jpg"
-                        style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Kaushal Kyapchhaki Magar</h5>
-                    <p>Student</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                        <p class="mb-0">College faculty are so good, they are so friendly you can meet them anytime in
-                            college hours and you can even text them if you have any doubt reagrding subject. Faculty
-                            are so great and knowlegable, everyday you will be taught in a new way which help student
-                            understand the topic easily.</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/Peshraj.jpg"
-                        style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Peshraj Lama</h5>
-                    <p>Student</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                        <p class="mb-0">Infrastructure is good and still developing faster, administration department is
-                            being constructed and looks its huge... College aheb diffrent department with a very unique
-                            design in accordance to the city</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/om.jpeg"
-                        style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Om Pandey</h5>
-                    <p>Student</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                        <p class="mb-0">I'm pursuing Bachelors in Bachelor of Computer Applications from this college.
-                            The quality of teaching is very good , the teachers are very specific about the syllabus and
-                            always makes us update regarding it . All teachers are very friendly .</p>
-                    </div>
-                </div>
-            </div>
+    <section id="contact" class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <h3
+          class="text-3xl font-cursive font-bold mb-8 text-center text-primary"
+        >
+          <i class="ri-contacts-book-line mr-2"></i>Contact Us
+        </h3>
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full md:w-1/2 px-4 mb-8 md:mb-0">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.8303051446906!2d85.28229907433973!3d27.691639226186165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190073208845%3A0x3fc27038cc0c16f5!2sGaneshman%20Singh%20Multiple%20Campus!5e0!3m2!1sen!2snp!4v1723534620396!5m2!1sen!2snp"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="rounded-lg shadow-md"
+            ></iframe>
+          </div>
+          <div class="w-full md:w-1/2 px-4">
+            <form class="bg-white rounded-lg shadow-md p-6">
+              <div class="mb-6">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  required
+                  class="custom-input w-full px-4 py-2"
+                />
+              </div>
+              <div class="mb-6">
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  required
+                  class="custom-input w-full px-4 py-2"
+                />
+              </div>
+              <div class="mb-6">
+                <input
+                  type="tel"
+                  placeholder="Your Phone"
+                  class="custom-input w-full px-4 py-2"
+                />
+              </div>
+              <div class="mb-6">
+                <textarea
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                  class="custom-input w-full px-4 py-2 resize-none"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="w-full bg-primary text-white py-3 px-4 rounded-md hover:bg-secondary transition-colors duration-300"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <footer class="bg-gray-700 text-white py-8">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-cursive font-bold mb-2">
+          Ganesh Man Singh Multiple Campus
+        </h2>
+        <br />
+
+        <a href="https://www.omkumarpandey.com.np/" class="mt-25"
+          >Developed By : Om Pandey</a
+        >
+      </div>
+    </footer>
+
+    <!-- Popup Notice -->
+    <div
+      id="popupNotice"
+      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden"
+    >
+      <div class="bg-white p-8 rounded-lg shadow-xl max-w-md relative">
+        <button
+          id="closePopupNotice"
+          class="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
+        >
+          <i class="ri-close-line text-2xl"></i>
+        </button>
+        <img src="Images/Notice.jpg" alt="Notice" class="w-full mb-4 rounded" />
+      </div>
     </div>
-    <!-- Testimonial End -->
 
-
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <a class="btn btn-link" href="about.html">About Us</a>
-                    <a class="btn btn-link" href="contact.html">Contact Us</a>
-
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> Link Marg, Kalanki, Kathmandu 44600</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i> 01-5234240, 01-5234937</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i> gmscampus@gmail.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social"
-                            href="https://www.facebook.com/groups/450521909299930" target="_blank"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social"
-                            href="https://www.youtube.com/@ganeshmansinghmultiplecamp7778/featured" target="_blank"><i
-                                class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Gallery</h4>
-                    <div class="row g-2 pt-2">
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/BCA.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/BBS.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/BA.png" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/1122.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/med.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/BSW.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Newsletter</h4>
-                    <p>For Any Other Quary Contacts Us Via Our Number Or Our Facebook Page Or Mail us.</p>
-
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        <a class="border-bottom">
-                            &copy; Copyright By <a href="https://www.omkumarpandey.com.np/" target="_blank"
-                                class="text-warning"><b>Om Pandey</b></a> & <a href="https://www.shekharluitel.com.np/"
-                                class="text-primary" target="_blank"><b>Shekhar Luitel</b></a> 2023 All Right Reserved.
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- Login Popup -->
+    <div
+      id="loginPopup"
+      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden"
+    >
+      <div class="bg-white p-8 rounded-lg shadow-xl max-w-md w-full relative">
+        <button
+          id="closeLoginPopup"
+          class="absolute top-2 right-2 text-gray-500 hover:text-gray-700"
+        >
+          <i class="ri-close-line text-2xl"></i>
+        </button>
+        <h3 class="text-2xl font-bold mb-6 text-center text-primary">
+          Login to Your Account
+        </h3>
+        <form>
+          <div class="mb-6">
+            <label
+              for="username"
+              class="block text-gray-700 text-sm font-bold mb-2"
+              >Username</label
+            >
+            <input
+              type="text"
+              id="username"
+              placeholder="Enter your username"
+              required
+              class="custom-input w-full px-4 py-2 bg-gray-100 rounded"
+            />
+          </div>
+          <div class="mb-6">
+            <label
+              for="password"
+              class="block text-gray-700 text-sm font-bold mb-2"
+              >Password</label
+            >
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+              required
+              class="custom-input w-full px-4 py-2 bg-gray-100 rounded"
+            />
+          </div>
+          <button
+            type="submit"
+            class="w-full bg-primary text-white py-3 px-4 rounded-md hover:bg-secondary transition-colors duration-300"
+          >
+            Log In
+          </button>
+        </form>
+        <p class="mt-4 text-center text-sm">
+          <a href="#" class="text-primary hover:underline">Forgot Password?</a>
+        </p>
+      </div>
     </div>
-    </div>
-    <!-- Footer End -->
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(ScrollToPlugin);
 
+      // Smooth scrolling for navigation
+      document.querySelectorAll("nav a").forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute("href");
+          const targetElement = document.querySelector(targetId);
 
+          gsap.to(window, {
+            duration: 1,
+            scrollTo: {
+              y: targetElement,
+              offsetY: 80,
+            },
+            ease: "power3.inOut",
+          });
+        });
+      });
 
+      // Hero image slider
+      const heroSlider = document.querySelector(".hero-slider");
+      const heroImages = heroSlider.querySelectorAll("img");
+      const sliderButtons = heroSlider.querySelectorAll("button");
+      let currentImageIndex = 0;
+      let intervalId;
 
+      function showImage(index) {
+        heroImages.forEach((img, i) => {
+          img.style.opacity = i === index ? "1" : "0";
+        });
+        sliderButtons.forEach((btn, i) => {
+          btn.style.opacity = i === index ? "1" : "0.5";
+        });
+      }
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+      function nextImage() {
+        currentImageIndex = (currentImageIndex + 1) % heroImages.length;
+        showImage(currentImageIndex);
+      }
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-</body>
+      function startSlideshow() {
+        intervalId = setInterval(nextImage, 5000);
+      }
 
+      function stopSlideshow() {
+        clearInterval(intervalId);
+      }
+
+      sliderButtons.forEach((button, index) => {
+        button.addEventListener("click", () => {
+          stopSlideshow();
+          currentImageIndex = index;
+          showImage(currentImageIndex);
+          startSlideshow();
+        });
+      });
+
+      startSlideshow();
+
+      // GSAP animations for sections
+      const sections = [
+        "#courses",
+        "#teachers",
+        "#facilities",
+        "#gallery",
+        "#contact",
+      ];
+      sections.forEach((section) => {
+        gsap.from(`${section} > div > div > *`, {
+          opacity: 0,
+          y: 50,
+          duration: 0.8,
+          stagger: 0.2,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: section,
+            start: "top center",
+          },
+        });
+      });
+
+      // GSAP hover animations for cards
+      const cards = document.querySelectorAll(
+        ".course-card, .teacher-card, .facility-card"
+      );
+      cards.forEach((card) => {
+        card.addEventListener("mouseenter", () => {
+          gsap.to(card, {
+            scale: 1.05,
+            boxShadow: "0 10px 20px rgba(0,0,0,0.2)",
+            duration: 0.3,
+          });
+        });
+        card.addEventListener("mouseleave", () => {
+          gsap.to(card, {
+            scale: 1,
+            boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
+            duration: 0.3,
+          });
+        });
+      });
+
+      // Popup Notice
+      window.addEventListener("load", () => {
+        const popupNotice = document.getElementById("popupNotice");
+        popupNotice.classList.remove("hidden");
+        popupNotice.querySelector("div").classList.add("popup-enter");
+      });
+
+      document
+        .getElementById("closePopupNotice")
+        .addEventListener("click", () => {
+          const popupNotice = document.getElementById("popupNotice");
+          const popupContent = popupNotice.querySelector("div");
+          popupContent.classList.remove("popup-enter");
+          popupContent.classList.add("popup-exit");
+          setTimeout(() => {
+            popupNotice.classList.add("hidden");
+            popupContent.classList.remove("popup-exit");
+          }, 500);
+        });
+
+      // Login Popup
+      document.getElementById("loginBtn").addEventListener("click", () => {
+        const loginPopup = document.getElementById("loginPopup");
+        loginPopup.classList.remove("hidden");
+        loginPopup.querySelector("div").classList.add("popup-enter");
+      });
+
+      document
+        .getElementById("closeLoginPopup")
+        .addEventListener("click", () => {
+          const loginPopup = document.getElementById("loginPopup");
+          const popupContent = loginPopup.querySelector("div");
+          popupContent.classList.remove("popup-enter");
+          popupContent.classList.add("popup-exit");
+          setTimeout(() => {
+            loginPopup.classList.add("hidden");
+            popupContent.classList.remove("popup-exit");
+          }, 500);
+        });
+    </script>
+  </body>
 </html>
