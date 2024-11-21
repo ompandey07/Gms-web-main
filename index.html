@@ -63,7 +63,7 @@
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="about.html" class="nav-item nav-link ">About</a>
                 <a href="new.html" class="nav-item nav-link">Courses</a>
-                <a href="Galary/index-color.html" class="nav-item nav-link">Gallery</a>
+                <a href="index-color.html" class="nav-item nav-link">Gallery</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Libarary</a>
                     <div class="dropdown-menu fade-down m-0">
@@ -148,50 +148,99 @@
 
 
     <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
-                            <h5 class="mb-3">Skilled Instructors</h5>
-                            <p>Get opportunity to take knowledge regarding your carrier with Skilled Instructers</p>
-                        </div>
+    <!-- Add this CSS in your head section or style.css file -->
+<style>
+    .service-item {
+        height: 100%;
+        background: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+        min-height: 300px;
+    }
+
+    .service-item:hover {
+        transform: translateY(-5px);
+    }
+
+    .service-item .p-4 {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-item i {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        color: var(--primary);
+    }
+
+    .service-item h5 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service-item p {
+        margin: 0;
+        height: 72px; /* Fixed height: 3 lines × 24px line height */
+        line-height: 24px;
+        overflow: hidden;
+        text-align: center;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        font-size: 16px;
+        color: #666666;
+    }
+</style>
+
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item text-center pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                        <h5 class="mb-3">Skilled Instructors</h5>
+                        <p>Learn from experienced faculty members who bring professional expertise to guide students.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
-                            <h5 class="mb-3">Online Classes</h5>
-                            <p>In case of Extra Classes regarding any subject we provide online class to fullfill your
-                                needs</p>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item text-center pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-desktop text-primary mb-4"></i>
+                        <h5 class="mb-3">Computer Labs</h5>
+                        <p>Practice in modern computer laboratories equipped with latest software and hardware.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-home text-primary mb-4"></i>
-                            <h5 class="mb-3">Home Projects</h5>
-                            <p>We Continuously Provide Home Projects After we finish our Book-units as well as after
-                                cource finished</p>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item text-center pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-home text-primary mb-4"></i>
+                        <h5 class="mb-3">Home Projects</h5>
+                        <p>Engage in practical projects throughout the course to build your portfolio and skills.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
-                            <h5 class="mb-3">Book Library</h5>
-                            <p>We provide a Library To Create Better Environment For Your Study Progress</p>
-                        </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="service-item text-center pt-3">
+                    <div class="p-4">
+                        <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
+                        <h5 class="mb-3">Book Library</h5>
+                        <p>Access our well-stocked library with comprehensive resources for your studies.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
     <!-- Service End -->
 
 
@@ -214,26 +263,26 @@
                         is unique, with their own talents and passions waiting to be discovered.
                         Our dedicated team of educators is committed to nurturing and guiding you along the path of
                         success.</p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
+                        <div class="row gy-2 gx-4 mb-4">
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Experienced Faculty</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Research Opportunities</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>TU Affiliated Certificate</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Modern Computer Labs</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Industry Internships</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Project-Based Learning</p>
+                            </div>
                         </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>TU Certificate</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>TU Certificate</p>
-                        </div>
-                    </div>
                     <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
                 </div>
             </div>
@@ -298,10 +347,129 @@
             </div>
         </div>
     </div>
-    <!-- Categories Start -->
 
 
     <!-- Courses Start -->
+    <style>
+        /* Modern Course Cards Styling */
+        .course-item {
+            height: 100%;
+            background: #ffffff;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+            transition: all 0.35s ease;
+            position: relative;
+            min-height: 450px;
+            margin-bottom: 30px;
+        }
+    
+        .course-item:hover {
+            transform: translateY(-10px);
+            box-shadow: rgba(17, 12, 46, 0.25) 0px 48px 100px 0px;
+        }
+    
+        .course-item .position-relative {
+            height: 250px;
+            overflow: hidden;
+            background: #f8f9fa;
+        }
+    
+        .course-item .img-fluid {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+    
+        .course-item:hover .img-fluid {
+            transform: scale(1.1);
+        }
+    
+        .course-item .text-center.p-4 {
+            padding: 2rem !important;
+            background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+        }
+    
+        .course-item h5 {
+            color: #333;
+            font-size: 1.25rem;
+            font-weight: 700;
+            min-height: 48px;
+            margin-bottom: 1.5rem !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    
+        .course-item .mb-3 {
+            background: rgba(6, 187, 204, 0.05);
+            padding: 8px;
+            border-radius: 30px;
+            display: inline-block;
+        }
+    
+        .course-item .fa-star {
+            color: #ffd700;
+            margin: 0 2px;
+            filter: drop-shadow(0 1px 1px rgba(0,0,0,0.1));
+            font-size: 14px;
+        }
+    
+        .course-item .d-flex.border-top {
+            background: #ffffff;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            border-top: 1px solid rgba(0,0,0,0.05) !important;
+        }
+    
+        .course-item .flex-fill {
+            padding: 15px 10px !important;
+            font-size: 0.9rem;
+            color: #555;
+            transition: all 0.3s ease;
+        }
+    
+        .course-item .flex-fill:hover {
+            background: rgba(6, 187, 204, 0.05);
+        }
+    
+        .section-title {
+            position: relative;
+            display: inline-block;
+            text-transform: uppercase;
+            font-weight: 600;
+            padding: 5px 20px;
+            background: rgba(6, 187, 204, 0.1);
+            border-radius: 30px;
+        }
+    
+        .section-title::after {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 2px;
+            background: #06BBCC;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    
+        .wow {
+            visibility: visible !important;
+        }
+    
+        @media (max-width: 768px) {
+            .course-item {
+                min-height: 400px;
+            }
+            .course-item .position-relative {
+                height: 200px;
+            }
+        }
+    </style>
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -309,165 +477,176 @@
                 <h1 class="mb-5">Courses Categories</h1>
             </div>
             <div class="row g-4 justify-content-center">
+                <!-- BCA Card -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/BCA.jpg" alt="">
+                            <img class="img-fluid" src="img/BCA.jpg" alt="BCA Program">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0"></h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
-                                <small>(123)</small>
                             </div>
                             <h5 class="mb-4">Bachelor of Computer Applications</h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
-                                Students</small>
+                            <small class="flex-fill text-center border-end py-2">
+                                <i class="fa fa-clock text-primary me-2"></i>4 Years
+                            </small>
+                            <small class="flex-fill text-center py-2">
+                                <i class="fa fa-book text-primary me-2"></i>8 Semesters
+                            </small>
                         </div>
                     </div>
                 </div>
+    
+                <!-- BBS Card -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/BBS.jpg" alt="">
+                            <img class="img-fluid" src="img/BBS.jpg" alt="BBS Program">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0"></h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
-                                <small>(123)</small>
                             </div>
-                            <h5 class="mb-4">Bachelor's In Business Studies </h5>
+                            <h5 class="mb-4">Bachelor's In Business Studies</h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
-                                Students</small>
+                            <small class="flex-fill text-center border-end py-2">
+                                <i class="fa fa-clock text-primary me-2"></i>4 Years
+                            </small>
+                            <small class="flex-fill text-center py-2">
+                                <i class="fa fa-graduation-cap text-primary me-2"></i>TU Affiliated
+                            </small>
                         </div>
                     </div>
                 </div>
+    
+                <!-- BA Card -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/BA.png" alt="">
+                            <img class="img-fluid" src="img/BA.png" alt="BA Program">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0"></h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
-                                <small></small>
                             </div>
                             <h5 class="mb-4">Bachelor of Arts</h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
-                                Students</small>
+                            <small class="flex-fill text-center border-end py-2">
+                                <i class="fa fa-clock text-primary me-2"></i>4 Years
+                            </small>
+                            <small class="flex-fill text-center py-2">
+                                <i class="fa fa-graduation-cap text-primary me-2"></i>TU Affiliated
+                            </small>
                         </div>
                     </div>
                 </div>
+    
+                <!-- BSW Card -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/BSW.jpg" alt="">
+                            <img class="img-fluid" src="img/BSW.jpg" alt="BSW Program">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0"></h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
-                                <small>(123)</small>
                             </div>
                             <h5 class="mb-4">Bachelor of Social Work</h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
-                                Students</small>
+                            <small class="flex-fill text-center border-end py-2">
+                                <i class="fa fa-clock text-primary me-2"></i>4 Years
+                            </small>
+                            <small class="flex-fill text-center py-2">
+                                <i class="fa fa-graduation-cap text-primary me-2"></i>TU Affiliated
+                            </small>
                         </div>
                     </div>
                 </div>
+    
+                <!-- MED Card -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/med.jpg" alt="">
+                            <img class="img-fluid" src="img/med.jpg" alt="MED Program">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0"></h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
-                                <small>(123)</small>
                             </div>
                             <h5 class="mb-4">Master's Of Education</h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
-                                Students</small>
+                            <small class="flex-fill text-center border-end py-2">
+                                <i class="fa fa-clock text-primary me-2"></i>2 Years
+                            </small>
+                            <small class="flex-fill text-center py-2">
+                                <i class="fa fa-graduation-cap text-primary me-2"></i>TU Affiliated
+                            </small>
                         </div>
                     </div>
                 </div>
+    
+                <!-- BED Card -->
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="course-item bg-light">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/1122.jpg" alt="">
+                            <img class="img-fluid" src="img/1122.jpg" alt="BED Program">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0"></h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
-                                <small></small>
                             </div>
                             <h5 class="mb-4">Bachelor of Education</h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i
-                                    class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30
-                                Students</small>
+                            <small class="flex-fill text-center border-end py-2">
+                                <i class="fa fa-clock text-primary me-2"></i>4 Years
+                            </small>
+                            <small class="flex-fill text-center py-2">
+                                <i class="fa fa-graduation-cap text-primary me-2"></i>TU Affiliated
+                            </small>
                         </div>
                     </div>
                 </div>
@@ -666,8 +845,8 @@
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
                         <a class="border-bottom">
-                            &copy; Copyright By <a href="https://www.omkumarpandey.com.np/" target="_blank"
-                                class="text-warning"><b>Om Pandey</b></a>  2023 All Right Reserved.
+                             Designed By <a href="https://www.omkumarpandey.com.np/" target="_blank"
+                                class="text-warning"><b>Om Pandey</b></a>  2022 Batch BCA Ganesh Man Singh Multiple Campus
                         </a>
                     </div>
                 </div>
@@ -676,7 +855,25 @@
     </div>
     </div>
     <!-- Footer End -->
-
+    <script>
+        // Disable right-click
+        document.addEventListener('contextmenu', function (e) {
+          e.preventDefault();
+        });
+      
+        // Disable F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U
+        document.addEventListener('keydown', function (e) {
+          if (
+            e.key === "F12" || 
+            (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) || 
+            (e.ctrlKey && e.key === "U") || 
+            (e.ctrlKey && e.shiftKey && e.key === "C")
+          ) {
+            e.preventDefault();
+          }
+        });
+      </script>
+      
 
 
 
